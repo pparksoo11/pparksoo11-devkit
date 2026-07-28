@@ -1,7 +1,7 @@
 {
   "name": "pparksoo11-skills",
-  "version": "0.1.0",
-  "description": "clean-code / commit skills",
-  "author": { "name": "pparksoo11", "email": "lovepys11@naver.com" },
+  "version": "0.2.0",
+  "description": "clean-code / commit / pr skills",
+  "author": { "name": "pparksoo11", "email": "dustntn11@naver.com" },
   "homepage": "https://github.com/pparksoo11/pparksoo11-devkit"
 }

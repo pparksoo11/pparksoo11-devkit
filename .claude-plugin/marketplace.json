@@ -2,7 +2,7 @@
   "name": "pparksoo11-devkit",
   "owner": {
     "name": "pparksoo11",
-    "email": "lovepys11@naver.com",
+    "email": "dustntn11@naver.com",
     "url": "https://github.com/pparksoo11"
   },
   "description": "pparksoo11's personal Claude Code skills, subagents, and workflow guide",
@@ -10,20 +10,20 @@
     {
       "name": "pparksoo11-skills",
       "source": "./plugins/pparksoo11-skills",
-      "description": "clean-code / commit (KR) skills",
-      "version": "0.1.0"
+      "description": "clean-code / commit / pr (KR) skills",
+      "version": "0.2.0"
     },
     {
       "name": "pparksoo11-agents",
       "source": "./plugins/pparksoo11-agents",
       "description": "Android, Flutter, Git, Planner, Terminal, KR Code Reviewer subagents",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "name": "pparksoo11-workflow",
       "source": "./plugins/pparksoo11-workflow",
       "description": "Plan-mode-first workflow orchestration guide (based on personal CLAUDE.md)",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

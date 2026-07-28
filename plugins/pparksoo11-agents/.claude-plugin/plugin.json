@@ -1,7 +1,7 @@
 {
   "name": "pparksoo11-agents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Android, Flutter, Git, Planner, Terminal, KR Code Reviewer subagents",
-  "author": { "name": "pparksoo11", "email": "lovepys11@naver.com" },
+  "author": { "name": "pparksoo11", "email": "dustntn11@naver.com" },
   "homepage": "https://github.com/pparksoo11/pparksoo11-devkit"
 }

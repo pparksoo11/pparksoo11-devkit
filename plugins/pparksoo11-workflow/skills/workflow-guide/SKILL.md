@@ -1,7 +1,6 @@
 ---
 name: workflow-guide
 description: "Plan-mode-first workflow orchestration guide. 비자명한 작업에 플랜 모드를 기본으로 적용하고, 서브에이전트 전략, 자율 버그 수정, 우아한 코드 원칙을 안내합니다."
-argument-hint: "[선택사항: 특정 섹션 이름]"
 ---
 
 # Workflow Orchestration Guide

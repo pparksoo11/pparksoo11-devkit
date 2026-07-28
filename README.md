@@ -6,9 +6,9 @@ pparksoo11의 개인 Claude Code 설정 모음. 다른 PC에서도 단 몇 줄�
 
 | 플러그인 | 내용 |
 |---|---|
-| `pparksoo11-skills` | `/clean-code` (Uncle Bob Clean Code), `/commit` (한국어 커밋 생성) |
+| `pparksoo11-skills` | `clean-code` (Uncle Bob Clean Code), `commit` (한국어 커밋 생성), `pr` (GitHub PR 생성) 스킬 |
 | `pparksoo11-agents` | android-developer, flutter-developer, code-reviewer-kr, git-commander, planner, terminal-helper |
-| `pparksoo11-workflow` | `/workflow-guide` — Plan-mode-first 워크플로우 지침 |
+| `pparksoo11-workflow` | `workflow-guide` — Plan-mode-first 워크플로우 지침 |
 
 ## 설치
 
@@ -36,11 +36,14 @@ pparksoo11의 개인 Claude Code 설정 모음. 다른 PC에서도 단 몇 줄�
 
 ## 스킬 사용법
 
+플러그인 스킬은 `/플러그인명:스킬명` 형태로 호출합니다 (동명의 개인 스킬과 충돌 방지):
+
 | 명령 | 설명 |
 |---|---|
-| `/clean-code` | 현재 코드를 Clean Code 원칙으로 리뷰/리팩터링 |
-| `/commit` | git 변경 내용 분석 후 한국어 커밋 메시지 자동 생성 |
-| `/workflow-guide` | Plan-mode-first 워크플로우 지침 조회 |
+| `/pparksoo11-skills:clean-code` | 현재 코드를 Clean Code 원칙으로 리뷰/리팩터링 |
+| `/pparksoo11-skills:commit` | git 변경 내용 분석 후 한국어 커밋 메시지 자동 생성 |
+| `/pparksoo11-skills:pr` | 브랜치 변경사항 분석 후 GitHub PR 생성 (최초 실행 시 저장소 설정 질문) |
+| `/pparksoo11-workflow:workflow-guide` | Plan-mode-first 워크플로우 지침 조회 |
 
 ## 에이전트 사용법
 
